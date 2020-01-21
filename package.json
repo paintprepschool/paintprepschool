@@ -1,8 +1,7 @@
 {
   "name": "paintprepschool",
   "version": "1.0.2",
-  "description": "Helping people start housepainting businesses with straight to
-  the point courses.",
+  "description": "Helping people start housepainting businesses with straight to the point courses.",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
