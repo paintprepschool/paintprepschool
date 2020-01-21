@@ -7,7 +7,12 @@
 
 		<header>
 			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
+				<a href="{{ '/' | url }}" alt="{{ metadata.title }}">
+					<script id="t" type="text/x-handlebars-template">
+    				<img class="someClass" src="{{/static/img/logo.png}}">
+					</script>
+				</a>
+
 			</em>
 			{% include "components/nav.njk" %}
 		</header>
