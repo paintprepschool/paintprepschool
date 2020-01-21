@@ -30,6 +30,7 @@
   "dependencies": {
     "clean-css": "^4.2.1",
     "html-minifier": "^4.0.0",
+    "js-yaml": "^3.13.1",
     "uglify-es": "^3.3.9"
   }
 }
